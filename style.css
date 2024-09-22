@@ -1,0 +1,81 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #19191a;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3432c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d0ae4;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#button2{
+    justify-content: baseline;
+    align-items: baseline;
+    margin-right: 3px;
+    margin-bottom: -90px;
+}
+#button3{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -90px;
+
+} */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #19191a; /* Fallback color */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3432c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d0ae4;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#gif {
+    margin-top: 20px; /* Space between button and GIF */
+    max-width: 100%; /* Ensure the GIF is responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: flex; /* Initially hidden */
+}
